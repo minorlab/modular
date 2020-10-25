@@ -6,7 +6,7 @@ import '../interfaces/route_guard.dart';
 import '../transitions/transitions.dart';
 import '../utils/old.dart';
 
-typedef RouteBuilder<T> = MaterialPageRoute<T> Function(
+typedef RouteBuilder<T> = PageRoute<T> Function(
     WidgetBuilder, RouteSettings);
 
 _debugPrintModular(String text) {
